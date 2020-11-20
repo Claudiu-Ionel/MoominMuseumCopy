@@ -128,6 +128,9 @@ details .details__ul {
   width: 200px;
   height: auto;
 }
+.language {
+  displa: none;
+}
 /* ------------------ Hamburger ----------------- */
 .hamburger {
   position: relative;
@@ -579,7 +582,10 @@ a.btn {
   .sub-links li a{
     color: #fff;
   }
-  .language {color: #363636;}
+  .language {
+    display: flex;
+    color: #363636;
+  }
   .language details img {
     padding: 5px;
     width: 18px;
